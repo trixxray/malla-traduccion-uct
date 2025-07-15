@@ -236,7 +236,8 @@ const malla = [
     "semestre": 5,
     "creditos": 5,
     "prerreq": [
-      "TRAD1110"
+      "TRAD1110",
+      "TRAD1115"
     ]
   },
   {
