@@ -1,0 +1,88 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fffafc;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.semestre {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.semestre h2 {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.asignatura {
+  padding: 8px;
+  border-radius: 6px;
+  margin: 5px 0;
+  font-size: 0.9rem;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.aprobada {
+  background-color: #c8e6c9;
+  border-color: #66bb6a;
+}
+
+.bloqueada {
+  background-color: #f2f2f2;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.asignatura:hover {
+  filter: brightness(95%);
+}
+
+.creditos {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+button {
+  margin-left: 15px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: none;
+  background-color: #ffcccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffb3b3;
+}
+
+/* Colores pastel por semestre */
+.semestre:nth-child(1) { background-color: #ffdce0; }
+.semestre:nth-child(2) { background-color: #ffeecf; }
+.semestre:nth-child(3) { background-color: #f0ffd1; }
+.semestre:nth-child(4) { background-color: #d5f7e3; }
+.semestre:nth-child(5) { background-color: #d4f0ff; }
+.semestre:nth-child(6) { background-color: #e5d6ff; }
+.semestre:nth-child(7) { background-color: #ffd6f2; }
+.semestre:nth-child(8) { background-color: #e8e8e8; }
+.semestre:nth-child(9) { background-color: #fff5cc; }
+.semestre:nth-child(10) { background-color: #e1f7ff; }
